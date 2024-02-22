@@ -5,7 +5,7 @@ This repository contains a Maven Archetype for creating Processing projects usin
 The archetype name is "CS1OOP Bootcamp Java Project" (see pom.xml).  Once installed you can find it in the local catalog under the name `processing_java`.
 
 ## Install with `mvn`
-Download the project, and in the project folder run `mvn clean install`. The archetype will be installed locally.
+Download the project, and in the project folder run `mvn clean install -Dmaven.test.skip=true`. The archetype will be installed locally.
 
 ## Install with Eclipse
 Load the project into Eclipse, right-click and choose `Run as` then `Maven Build...` (note the 3 dots).  Into `Goals` enter `clean install` and ensure `Skip Tests` is selected, then click `Run`.
